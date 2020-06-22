@@ -1,0 +1,41 @@
+.main {
+    display: -webkit-flex;
+    padding: 0;
+}
+
+.right-border {
+    border-right: 1px solid rgb(215, 201, 201);
+}
+
+.column {
+    width: 49%;
+    padding: 15px;
+}
+
+.column header {
+    border-bottom: 1px solid rgb(215, 201, 201);
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.column button {
+    text-align: left;
+}
+
+.file-button {
+    margin: 7px;
+    width: 97.5%;
+    height: 8.2%;
+}
+
+button.chosen {
+    background-color: rgb(230, 230, 250);
+    border-color: rgb(125, 60, 152);
+    color: rgb(125, 60, 152);
+}
+
+button.active.chosen {
+    background-color: rgb(125, 60, 152);
+    border-color: rgb(125, 60, 152);
+    color: #fff;
+}
